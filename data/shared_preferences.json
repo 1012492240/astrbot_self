@@ -1,0 +1,48 @@
+{
+    "inactivated_llm_tools": [
+        "stop_responding",
+        "fetch_url",
+        "python_interpreter",
+        "web_search"
+    ],
+    "inactivated_plugins": [
+        "packages.python_interpreter.main",
+        "data.plugins.astrbot_plugin_humanlike.main"
+    ],
+    "session_conversation": {
+        "webchat:FriendMessage:webchat!astrbot123!52cf7a39-39dc-4ad5-ac25-33ef1fa30b2d": "1bea1ec1-58d0-4ecd-bd7d-50beb760b1f9",
+        "webchat:FriendMessage:webchat!astrbot123!b9cc0263-761d-43bd-8e7f-5456cfe62c1a": "1e20e127-01f4-4fc0-a0cb-9461a1711ae8",
+        "webchat:FriendMessage:webchat!astrbot123!029bb282-574e-4dba-b0e8-33a5f3ff8c8c": "78787ac6-38bb-4dc6-8b4f-091b8e631505",
+        "webchat:FriendMessage:webchat!astrbot123!912b29a0-832a-46b8-9d46-49a4235d5721": "4790e854-a791-4bcf-a006-f39ca4ddd284",
+        "webchat:FriendMessage:webchat!astrbot123!185c16f6-b1a6-4fa2-b47e-d03408556a04": "f8f5a4fc-03d8-4e62-b9b4-cf8e6c352a27",
+        "webchat:FriendMessage:webchat!astrbot123!3554ae84-582c-4ad8-9e0f-a822a3cb0336": "4e478a9b-64db-4f5a-b97b-899a7f00b632",
+        "webchat:FriendMessage:webchat!astrbot123!133cb9c2-9c03-49a5-acec-9c93fad98ad6": "01a08e0e-d213-4e7f-a0c7-27c2ab9c52b7",
+        "webchat:FriendMessage:webchat!astrbot123!bf0cfffe-9e1a-4fc8-a7c7-2550e206614c": "24419eaf-40bc-46d3-a67b-bf7afd18a074",
+        "webchat:FriendMessage:webchat!astrbot123!c9cd9c2b-b92b-417f-a991-28b65bf2649b": "a0e713dc-1660-4c26-ba43-717a0b6e45af",
+        "webchat:FriendMessage:webchat!astrbot123!fa5435d2-4ed5-4cbc-9abe-aad373d03835": "124ef21a-6b80-4615-9265-4e975e7d6561",
+        "webchat:FriendMessage:webchat!astrbot123!055e2c40-59c2-4a8d-b1e1-f0fab72ed59a": "20db856e-ef13-4434-bb53-7717d7fb1d2b",
+        "webchat:FriendMessage:webchat!astrbot123!660d71b9-fea3-432e-b9eb-62a336f156ac": "3690ac3e-faf8-4d85-844c-53a1337c1a1c",
+        "webchat:FriendMessage:webchat!astrbot123!7d44c37a-7ab6-475d-b9a9-fb9cc9149091": "17aa82f5-11cb-4964-8fa1-8e28c0f58b6e",
+        "webchat:FriendMessage:webchat!astrbot123!12854777-a212-4d0e-acde-4bdca7f9315f": "7c20e185-f264-4446-8edd-9eab863decba",
+        "webchat:FriendMessage:webchat!astrbot123!2e521ae5-c7b8-4e3b-9800-326deb14d703": "3fc31ed4-e032-4d53-aaa9-014b0ddd2603",
+        "webchat:FriendMessage:webchat!astrbot123!649e359d-823c-410f-a97d-941812d3c62e": "75baa6ed-879f-450b-8e43-2a2f38658504",
+        "webchat:FriendMessage:webchat!astrbot123!0b1c6568-2dac-4169-8283-66c7c1d4cfee": "e7040aaa-e577-4c9a-9b0f-3f93f003c1c8",
+        "webchat:FriendMessage:webchat!astrbot123!351a1b19-7b1a-4d62-8b88-2329dde70fd0": "acc372a8-4ab7-4b80-9809-69b8a88ea15a",
+        "webchat:FriendMessage:webchat!astrbot123!270956ca-56db-4f53-b7ef-c82bf2c927a8": "3c841ee8-008c-4495-b394-81885b4883b0",
+        "webchat:FriendMessage:webchat!astrbot123!2537375d-44de-4c50-9e50-b794a4530b02": "d132c5d6-65d8-48cf-bc29-b29bc228b24b",
+        "webchat:FriendMessage:webchat!astrbot123!442d1e6f-bd3a-444d-a519-3151f3705e5f": "7c67c210-49bc-4284-b563-77f39465e7bb",
+        "webchat:FriendMessage:webchat!astrbot123!54938e32-0ee1-4fbb-a855-f6eef91a7007": "8c4da16d-b794-4063-b45f-01a1a82e98e2",
+        "webchat:FriendMessage:webchat!astrbot123!47e3d7b5-2caf-4539-9c32-59773a949d4e": "231083fc-bff1-4aa1-8fc9-42f5ea4ca57a",
+        "webchat:FriendMessage:webchat!astrbot123!824b7a37-9f6e-43aa-b1fb-3fdda301472b": "92b433db-c148-40f4-9728-7989b85aab0c",
+        "webchat:FriendMessage:webchat!astrbot123!e3e88e07-3b33-48d9-8776-b439bc687154": "014474d3-65e2-4e15-bac0-aedc97b9b87c",
+        "webchat:FriendMessage:webchat!astrbot123!dca209da-5eae-49cd-838a-939cee5f3579": "62009eb1-0a9a-4892-8d0b-ba390dad1098",
+        "webchat:FriendMessage:webchat!astrbot123!bcbc9276-f944-42e4-86ea-374f97cba664": "0356ede8-6e54-4aa3-a689-de8101560cb4",
+        "webchat:FriendMessage:webchat!astrbot123!3a09afe0-40e7-4b40-b740-27f2c66057f0": "745aa3a7-6fb5-4b15-9a89-5736f93820f3",
+        "webchat:FriendMessage:webchat!astrbot123!7e085f52-ad9a-437a-b6bf-9a0224acb5fb": "d02217fb-bc8f-425f-beec-0de429e292c9",
+        "webchat:FriendMessage:webchat!astrbot123!826df5b6-1461-4d2b-88a1-1ef06418eb84": "6369d53d-fabe-4062-9895-56866c88d0ab",
+        "webchat:FriendMessage:webchat!astrbot123!bea900fc-e715-4524-8992-d4bc108832a4": "37cac9fb-4936-4e13-944a-8a6d8687daa9",
+        "webchat:FriendMessage:webchat!astrbot123!055c1c6b-023d-4a2c-a891-e353d91baa8a": "c1bec517-ef21-482a-92c7-4dcc8faeba76",
+        "webchat:FriendMessage:webchat!astrbot123!43ebdc2a-5add-41ac-900e-972119ebc535": "2bb6bdba-6d4a-4d8e-8820-b34d16adebfd"
+    },
+    "gewechat-appid-soulter": "wx_JqilrvRKxvtYLH7Jal11w"
+}

@@ -1,0 +1,29 @@
+﻿{
+    "Ignore_Randomly": {
+        "Enable_Ignore_Randomly": true,
+        "Ignore_Probability": 10
+    },
+    "Punctuation": {
+        "Delete_Punctuation": true,
+        "Punctuation_List": [
+            "。",
+            "！",
+            "？",
+            "；"
+        ]
+    },
+    "Sleep_Config": {
+        "Astrbot_Sleep": true,
+        "Astrbot_Sleep_Time": "22:00-08:00"
+    },
+    "Late_Interventions": {
+        "Enable_Late_Interventions": false,
+        "Late_Interventions_Time": [
+            1,
+            2,
+            3
+        ],
+        "Random_Late_Interventions_Time": true,
+        "Random_Late_Interventions_Time_Range": "1-10"
+    }
+}
