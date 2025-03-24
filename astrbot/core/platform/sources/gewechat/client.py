@@ -252,7 +252,7 @@ class SimpleGewechatClient:
                 )
 
             case _:
-                logger.info(f"未实现的消息类型tttttttttt3333ttttt: {d['MsgType']}")
+                logger.info(f"未实现的消息类型tttttttttt3333tttt12213123123121313t: {d['MsgType']}")
                 abm.raw_message = d
 
         logger.debug(f"abm: {abm}")
