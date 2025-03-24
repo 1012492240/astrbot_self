@@ -260,10 +260,15 @@ class SimpleGewechatClient:
 
     async def callback(self):
         data = await quart.request.json
-        logger.debug(f"收到 gewechat 回调: {data}")
         logger.info(f"收到 gewechat 回调: {data}")
+        logger.info(f"打印2")
+        logger.info(f"打印2")
+        logger.info(f"打印2")
+        logger.info(f"打印2")
+
 
         if data.get("testMsg", None):
+             logger.info(f"打印2")
             return quart.jsonify({"r": "AstrBot ACK"})
 
         abm = None
@@ -278,7 +283,7 @@ class SimpleGewechatClient:
             coro = getattr(self, "on_event_received")
             if coro:
                 await coro(abm)
-
+        logger.info(f"打印2")
         return quart.jsonify({"r": "AstrBot ACK"})
 
     async def handle_file(self, file_id):
@@ -287,6 +292,9 @@ class SimpleGewechatClient:
 
     async def _set_callback_url(self):
         logger.info("设置回调，请等待...")
+        logger.info(f"打印1")
+        logger.info(f"打印1")
+        logger.info(f"打印1")
         await asyncio.sleep(3)
         async with aiohttp.ClientSession() as session:
             async with session.post(
@@ -386,6 +394,11 @@ class SimpleGewechatClient:
                     qr_data = json_blob["data"]["qrData"]
                     qr_uuid = json_blob["data"]["uuid"]
                     appid = json_blob["data"]["appId"]
+                    logger.info(f"打印")
+                    logger.info(f"打印")
+                    logger.info(f"打印")
+                    logger.info(f"打印")
+                    logger.info(f"打印")
                     logger.info(f"APPID: {appid}")
                     logger.warning(
                         f"请打开该网址，然后使用微信扫描二维码登录: https://api.cl2wm.cn/api/qrcode/code?text={qr_data}"
