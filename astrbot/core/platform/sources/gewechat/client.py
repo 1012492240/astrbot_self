@@ -261,6 +261,12 @@ class SimpleGewechatClient:
     async def callback(self):
         data = await quart.request.json
         logger.info(f"收到 gewechat 回调: {data}")
+        print("This is a log message")
+        print("This is a log message")
+        print("This is a log message")
+        print("This is a log message")
+        print("This is a log message")
+        print("{data}")
         logger.info(f"打印2")
         logger.info(f"打印2")
         logger.info(f"打印2")

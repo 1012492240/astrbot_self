@@ -111,7 +111,9 @@ class AstrBotCoreLifecycle:
 
     async def start(self):
         self._load()
-        logger.info("AstrBot 启动完成。")
+        logger.info("AstrBot 启动完成123123312。")
+        print("This is a log message")
+        print("This is a log message")
 
         # 执行启动完成事件钩子
         handlers = star_handlers_registry.get_handlers_by_event_type(
